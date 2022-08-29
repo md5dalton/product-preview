@@ -9,7 +9,6 @@
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
 - [Author](#author)
 
@@ -26,6 +25,27 @@ Your users should be able to:
 
 ### Links
 
-- Repository URL: [Github](https://github.com/md5dalton/intro-dropdown-nav)
-- Live Site URL: [Vercel](https://intro-dropdown-nav.vercel.app)
+- Repository URL: [Github](https://github.com/md5dalton/product-preview)
+- Live Site URL: [Vercel](https://product-preview-seven.vercel.app)
 <!-- - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/challenges) -->
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- [Sass](https://sass-lang.com/) - CSS Extension Language
+
+### Continued development
+
+- CSS Grid
+- Semantic HTML5 markup
+
+## Author
+
+- Github - [Dalton](https://github.com/md5dalton)
+- Frontend Mentor - [@md5dalton](https://www.frontendmentor.io/profile/md5dalton)
+- Website - [MJR](https://dalton.vercel.app)
