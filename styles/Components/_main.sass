@@ -1,0 +1,55 @@
+@use "../util" as *
+
+main
+    @include flex(center)
+    flex-direction: column
+    min-height: 100vh
+
+section
+    @include container-a
+    @include padding
+
+.card
+    @include radius
+    background-color: var(--color-white)
+    overflow: hidden
+
+    .image-wrapper img
+        width: 100%
+
+    .description
+        @include padding(1.5rem)
+
+        h1
+            margin: 0
+            margin-top: 1rem
+
+    .price
+        @include flex
+        @include padding(.5rem 0)
+        gap: 1.5rem
+
+    button
+        @include flex(center)
+        @include radius
+        background-color: var(--color-primary)
+        margin-top: 1rem
+        border: none
+        appearance: none
+        cursor: pointer
+        width: 100%
+        height: 3rem
+        gap: .5rem
+        transition: $transition
+
+        &:hover
+            background-color: var(--color-bg-hover)
+
+    @include tablet
+        display: grid
+        grid-template-columns: 1fr 1fr
+        width: 600px
+        height: 450px
+
+        .description
+            @include padding(2rem)
